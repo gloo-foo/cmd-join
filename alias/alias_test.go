@@ -4,8 +4,9 @@ import (
 	"slices"
 	"testing"
 
-	join "github.com/gloo-foo/cmd-join/alias"
 	"github.com/gloo-foo/testable"
+
+	join "github.com/gloo-foo/cmd-join/alias"
 )
 
 // The alias package re-exports the constructor and flag types under unprefixed

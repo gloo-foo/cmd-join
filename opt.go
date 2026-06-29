@@ -3,6 +3,7 @@ package command
 import (
 	"bytes"
 
+	gloo "github.com/gloo-foo/framework"
 	"github.com/spf13/afero"
 )
 
@@ -56,7 +57,7 @@ func appendNonEmpty(fields [][]byte, field []byte) [][]byte {
 type joinFs struct{ afero.Fs }
 
 // JoinFs selects the filesystem join uses to open File positional arguments.
-func JoinFs(fs afero.Fs) joinFs { return joinFs{fs} }
+func JoinFs(fs afero.Fs) gloo.Switch[flags] { return joinFs{fs} }
 
 func (f joinFs) Configure(flags *flags) { flags.fs = f }
 
@@ -69,6 +70,6 @@ func (f joinFs) value() afero.Fs {
 }
 
 type flags struct {
-	separator JoinSeparator
 	fs        joinFs
+	separator JoinSeparator
 }

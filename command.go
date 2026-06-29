@@ -8,9 +8,8 @@ import (
 	"io"
 
 	"github.com/destel/rill"
-	"github.com/spf13/afero"
-
 	gloo "github.com/gloo-foo/framework"
+	"github.com/spf13/afero"
 )
 
 // JoinInput supplies the second input as raw lines, taking precedence over any
@@ -80,7 +79,7 @@ type sources struct {
 }
 
 // newSources classifies the opts into the resolved input sources.
-func newSources(opts []any, positionals []any, fs afero.Fs) sources {
+func newSources(opts, positionals []any, fs afero.Fs) sources {
 	explicit, ok := explicitInput2(opts)
 	return sources{
 		fs:             fs,

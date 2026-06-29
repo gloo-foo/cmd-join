@@ -1,8 +1,9 @@
 package join_test
 
 import (
-	join "github.com/gloo-foo/cmd-join/alias"
 	yup "github.com/gloo-foo/framework/patterns"
+
+	join "github.com/gloo-foo/cmd-join/alias"
 )
 
 // ExampleJoin_basic joins two sorted files on their common first field. Keys 1,

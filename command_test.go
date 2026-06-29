@@ -6,10 +6,10 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/gloo-foo/testable"
 	"github.com/spf13/afero"
 
 	command "github.com/gloo-foo/cmd-join"
-	"github.com/gloo-foo/testable"
 )
 
 func assertLines(t *testing.T, got, want []string) {
