@@ -1,7 +1,7 @@
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
-github.com/destel/rill v0.8.1 h1:tJTit7kljOy2i2kqP4zHG1dUA452VpMK/myYRy5SY28=
-github.com/destel/rill v0.8.1/go.mod h1:srKuXzvGqINUEGYR5b/iwvW+L9/S35RxVHWGYbXNoO4=
+github.com/destel/rill v0.9.0 h1:Tg9TFzZq6SD6ndHbXGj37j2anEeE5H3cxlPVIZjifCc=
+github.com/destel/rill v0.9.0/go.mod h1:JgU2akn1tHTKg8kKzaTi0Wup9ajM7wIQqWz/qiWP7MI=
 github.com/gloo-foo/fn v0.1.22 h1:wAxEM7flRVXxOUy+sLbs7R6J6icUS0XD7Lu5aXysYjw=
 github.com/gloo-foo/fn v0.1.22/go.mod h1:+RSC4Wr+Mg42bNCGB8llYBEiIr8mlcfeZk9kngnq3Cw=
 github.com/gloo-foo/framework v0.1.28 h1:WuNdcGAoW4uRAgDV7jy/NsxyghJ3oOuSHSFfNpXb6HY=
